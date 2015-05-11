@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mcom_main_fragment_holder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</FrameLayout>
+
+<!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/layout/activity_mcom_main.xml -->

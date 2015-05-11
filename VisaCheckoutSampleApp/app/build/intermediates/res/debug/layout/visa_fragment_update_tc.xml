@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_updated_tc_main_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/visa_checkout_layout_background">
+
+    <include
+        android:id="@+id/update_tc_includedServerSideError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/visa_server_side_error" />
+
+    <RelativeLayout
+        android:id="@+id/rl_notice_agree_continue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/update_t_c_advise_height"
+        android:background="@color/vme_background"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:id="@+id/v_divider_update_t_c"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/ten_px"
+            android:background="@drawable/img_shadow" />
+
+        <TextView
+            android:id="@+id/tv_tc_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_update_tc_agree"
+            android:textColor="@color/tv_title_color"
+            android:textSize="@dimen/forty_two_px_sp"
+            android:layout_marginTop="@dimen/sixty_px"
+            android:layout_marginLeft="@dimen/layout_margin_left_right"
+            android:layout_marginRight="@dimen/layout_margin_left_right"
+            android:layout_below="@id/v_divider_update_t_c" />
+
+
+        <Button
+            android:id="@+id/bt_update_tc_agree_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/VisaCheckoutGoldButton"
+            android:layout_marginTop="@dimen/sixty_px"
+            android:text="@string/bt_update_tc_agree"
+            android:layout_below="@id/tv_tc_notice" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_update_tc_webViewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/sixty_px"
+        android:layout_below="@id/update_tc_includedServerSideError"
+        android:layout_above="@id/rl_notice_agree_continue"
+        android:layout_marginLeft="@dimen/layout_margin_left_right"
+        android:layout_marginRight="@dimen/layout_margin_left_right">
+
+        <WebView
+            android:id="@+id/wv_update_tc_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+</RelativeLayout>
+<!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/layout/visa_fragment_update_tc.xml --><!-- From: file:/C:/Users/virajase/Desktop/Mobile%20Suite/Latest%202.9/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-2.9/res/layout/visa_fragment_update_tc.xml -->

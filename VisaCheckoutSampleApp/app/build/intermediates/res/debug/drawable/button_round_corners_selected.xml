@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="@dimen/bt_radius" />
+    <solid android:color="@color/gold_streamer_alpha"/>
+</shape><!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/drawable/button_round_corners_selected.xml --><!-- From: file:/C:/Users/virajase/Desktop/Mobile%20Suite/Latest%202.9/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-2.9/res/drawable/button_round_corners_selected.xml -->

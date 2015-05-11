@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/visa_checkout_layout_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <include
+        android:id="@+id/includedServerSideError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/visa_server_side_error" />
+
+    <WebView
+        android:id="@+id/wv_webview_content"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/thirty_px"
+        android:layout_below="@id/includedServerSideError"/>
+
+</RelativeLayout><!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/layout/visa_webview_fragment.xml --><!-- From: file:/C:/Users/virajase/Desktop/Mobile%20Suite/Latest%202.9/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-2.9/res/layout/visa_webview_fragment.xml -->

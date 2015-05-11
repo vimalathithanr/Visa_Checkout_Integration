@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/ten_px"
+    >
+
+    <ImageView
+        android:id="@+id/ivAlertIcon"
+        android:layout_marginTop="@dimen/pl_seventy_px"
+        android:layout_width="@dimen/eighty_px"
+        android:layout_height="@dimen/eighty_px"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/layout_margin_left_right"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_alert"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvServerSideAlert_Message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ivAlertIcon"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/twenty_px"
+        android:layout_marginRight="@dimen/layout_margin_left_right"
+        android:layout_toRightOf="@id/ivAlertIcon"
+        android:text="@string/tv_forgotPassword_error_not_found"
+        android:textColor="@color/tv_info_label_color"
+        android:textSize="@dimen/pl_twelve_px_sp"
+        android:visibility="gone" />
+
+</RelativeLayout><!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/layout/visa_server_side_alert.xml -->

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.visa.checkout"
+    android:versionCode="2"
+    android:versionName="1.6" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="21" />
+
+    <application>
+        <meta-data
+            android:name="LOCALYTICS_APP_KEY"
+            android:value="01998d2114375f09adb04b3-e1204806-abd0-11e3-9a85-009c5fda0a25" />
+
+        <activity
+            android:name="com.visa.checkout.VisaActivity"
+            android:label="sdk_mcom" >
+        </activity>
+        <activity
+            android:name="com.visa.checkout.VisaTransparentOverlayActivity"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+    </application>
+
+</manifest>

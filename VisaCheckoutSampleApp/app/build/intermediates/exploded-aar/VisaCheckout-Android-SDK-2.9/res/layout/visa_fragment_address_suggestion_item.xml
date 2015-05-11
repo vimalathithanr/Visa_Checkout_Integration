@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/forty_px"
+    android:background="@color/visa_checkout_layout_background">
+
+    <TextView
+        android:id="@+id/tv_address_suggestion_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/thirty_px"
+        android:textSize="@dimen/forty_two_px_sp"
+        android:hint="Alfred Pennyworth"
+        android:textColor="@color/tv_info_label_color"/>
+
+    <TextView
+        android:id="@+id/tv_address_suggestion_line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/twenty_px"
+        android:textSize="@dimen/forty_two_px_sp"
+        android:hint="1234 Wayne Manor"
+        android:textColor="@color/tv_info_label_color"/>
+
+    <TextView
+        android:id="@+id/tv_address_suggestion_line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/twenty_px"
+        android:textSize="@dimen/forty_two_px_sp"
+        android:hint="Apt 123"
+        android:visibility="gone"
+        android:textColor="@color/tv_info_label_color"/>
+
+    <TextView
+        android:id="@+id/tv_address_suggestion_line3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/twenty_px"
+        android:textSize="@dimen/forty_two_px_sp"
+        android:hint="Suburb"
+        android:visibility="gone"
+        android:textColor="@color/tv_info_label_color"/>
+
+    <TextView
+        android:id="@+id/tv_address_suggestion_citystatezip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/twenty_px"
+        android:textSize="@dimen/forty_two_px_sp"
+        android:hint="Gotham City, CA 12345"
+        android:textColor="@color/tv_info_label_color"/>
+
+    <Button
+        android:id="@+id/bt_address_suggestion_usethis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/VisaCheckoutGoldButton"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="@dimen/sixty_px"
+        android:layout_below="@id/rl_billing_address_carousel"
+        android:text="@string/bt_address_suggestion_use_this"/>
+
+</LinearLayout><!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/layout/visa_fragment_address_suggestion_item.xml -->

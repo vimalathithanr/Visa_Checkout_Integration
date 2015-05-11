@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="card.io-4.0.2" >
+        <source path="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\build\intermediates\exploded-aar\card.io-4.0.2\assets" />
+    </dataSet>
+    <dataSet config="facebook-android-sdk-3.23.1" >
+        <source path="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\build\intermediates\exploded-aar\facebook-android-sdk-3.23.1\assets" />
+    </dataSet>
+    <dataSet config="VisaCheckout-Android-SDK-2.9" >
+        <source path="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\build\intermediates\exploded-aar\VisaCheckout-Android-SDK-2.9\assets" >
+            <file
+                name="OpenSans-Bold.ttf"
+                path="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\build\intermediates\exploded-aar\VisaCheckout-Android-SDK-2.9\assets\OpenSans-Bold.ttf" />
+            <file
+                name="OpenSans-Regular.ttf"
+                path="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\build\intermediates\exploded-aar\VisaCheckout-Android-SDK-2.9\assets\OpenSans-Regular.ttf" />
+        </source>
+    </dataSet>
+    <dataSet config="main" >
+        <source path="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\src\main\assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\src\debug\assets" />
+    </dataSet>
+
+</merger>

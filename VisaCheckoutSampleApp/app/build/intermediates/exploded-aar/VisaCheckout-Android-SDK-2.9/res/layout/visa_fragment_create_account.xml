@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sv_signup_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="@dimen/sixty_px"
+    android:layout_marginLeft="@dimen/layout_margin_left_right"
+    android:layout_marginRight="@dimen/layout_margin_left_right"
+    android:background="@color/visa_checkout_layout_background">
+
+    <RelativeLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvCreateAccountTitle"
+            style="@style/VisaCheckoutTextViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/thirty_five_px"
+            android:layout_marginTop="@dimen/forty_px"
+            android:text="@string/cac_tvCreateAccountTitle" />
+
+        <include
+            android:id="@+id/createAccountIncludedServerSideError"
+            layout="@layout/visa_server_side_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCreateAccountTitle" />
+
+        <View
+            android:id="@+id/createAccountUserDivider"
+            style="@style/VisaCheckoutDividerLine"
+            android:layout_below="@id/createAccountIncludedServerSideError"
+            android:layout_marginTop="@dimen/sixty_five_px" />
+
+        <RelativeLayout
+            android:id="@+id/createAccountEmailContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/createAccountUserDivider">
+
+            <TextView
+                android:id="@+id/tvCreateAccountUsernameEmailHint"
+                style="@style/VisaCheckoutHintLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_margin_left_right"
+                android:layout_marginRight="@dimen/layout_margin_left_right"
+                android:paddingLeft="@dimen/create_account_screen_padding"
+                android:paddingRight="@dimen/create_account_screen_padding"
+                android:text="@string/cac_etCreateAccountUsernameEmail_hint"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/etCreateAccountUsernameEmail"
+                style="@style/VisaCheckoutEditTextWithHint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvCreateAccountUsernameEmailHint"
+                android:layout_marginLeft="@dimen/layout_margin_left_right"
+                android:layout_marginRight="@dimen/layout_margin_left_right"
+                android:hint="@string/cac_etCreateAccountUsernameEmail_hint"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:maxLength="@integer/create_account_edittext_maxlength"
+                android:paddingLeft="@dimen/create_account_screen_padding"
+                android:paddingRight="@dimen/create_account_screen_padding"
+                android:textColor="@color/et_hint_color" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvCreateAccountUsePhoneNumberLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/createAccountEmailContainer"
+            android:layout_marginBottom="@dimen/forty_px"
+            android:layout_marginLeft="@dimen/layout_margin_left_right"
+            android:layout_marginRight="@dimen/layout_margin_left_right"
+            android:layout_marginTop="@dimen/thirteen_px"
+            android:contentDescription="@string/cac_tvCreateAccountUseMobileNumberLink_content_description"
+            android:paddingLeft="@dimen/create_account_screen_padding"
+            android:paddingRight="@dimen/ten_px"
+            android:text="@string/cac_tvCreateAccountUseMobileNumberLink"
+            android:textColor="@color/global_font_dark_grey"
+            android:textSize="@dimen/global_font_xsmall" />
+
+        <RelativeLayout
+            android:id="@+id/createAccountUsernamePhoneNumberContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/createAccountUserDivider"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <View
+                android:id="@+id/createAccountPhoneNumberDivider"
+                style="@style/VisaCheckoutDividerLine"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/tvCreateAccountUsernamePhoneNumberHint"
+                style="@style/VisaCheckoutHintLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/adjusted_horizontal_margin"
+                android:layout_marginRight="0dp"
+                android:layout_toLeftOf="@+id/tvCreateAccountCancel"
+                android:paddingLeft="@dimen/et_text_padding"
+                android:paddingRight="@dimen/et_text_padding"
+                android:text="@string/cac_etCreateAccountUsernamePhoneNumber_hint"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/etCreateAccountUsernamePhoneNumber"
+                style="@style/VisaCheckoutEditTextWithHint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvCreateAccountUsernamePhoneNumberHint"
+                android:layout_marginLeft="@dimen/adjusted_horizontal_margin"
+                android:layout_marginRight="0dp"
+                android:layout_toLeftOf="@+id/tvCreateAccountCancel"
+                android:hint="@string/cac_etCreateAccountUsernamePhoneNumber_hint"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/tvCreateAccountCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/forty_px"
+                android:layout_marginRight="@dimen/ninty_px"
+                android:text="@string/bt_cancel"
+                android:textColor="@color/global_font_hyperlink"
+                android:textSize="@dimen/global_font_small" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rlBottomPartContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCreateAccountUsePhoneNumberLink">
+
+
+            <RelativeLayout
+                android:id="@+id/rlCreateAccountUsernamePreferencesContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etCreateAccountPassword"
+                android:layout_marginLeft="@dimen/layout_margin_left_right"
+                android:layout_marginRight="@dimen/layout_margin_left_right"
+                android:layout_marginTop="-4dp"
+                android:background="@color/signin_remember_username_banner_bg"
+                android:paddingBottom="@dimen/sixty_five_px"
+                android:paddingTop="@dimen/sixty_five_px"
+                android:visibility="gone">
+
+                <CheckBox
+                    android:id="@+id/cbCreateAccountUsernamePreferences"
+                    style="@style/VisaCheckoutGlobalCheckbox"
+                    android:layout_marginLeft="@dimen/sixty_px"
+                    android:layout_marginTop="@dimen/ten_px"
+                    android:contentDescription="@string/tvSignIn_Preferences"
+                    android:checked="true" />
+
+                <TextView
+                    android:id="@+id/tvCreateAccountUsernamePreferences"
+                    style="@style/VisaCheckoutGlobalCheckboxTextLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/cbCreateAccountUsernamePreferences"
+                    android:contentDescription="@string/tvSignIn_Preferences_content_description"
+                    android:text="@string/tvSignIn_Preferences" />
+            </RelativeLayout>
+
+            <!-- White space so that rlCreateAccountUsernamePreferencesContainer wouldn't be visible while sliding behind AddPassword view-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignBottom="@+id/etCreateAccountPassword"
+                android:layout_marginBottom="4dp"
+                android:background="@color/white" />
+
+            <View
+                android:id="@+id/createAccountPasswordDivider"
+                style="@style/VisaCheckoutDividerLine" />
+
+            <RelativeLayout
+                android:id = "@+id/createAccountCpfContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_below="@+id/createAccountPasswordDivider">
+
+            <TextView
+                android:id="@+id/tvCreateAccountCpfHint"
+                style="@style/VisaCheckoutHintLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/adjusted_horizontal_margin"
+                android:layout_marginRight="@dimen/adjusted_horizontal_margin"
+                android:paddingLeft="@dimen/et_text_padding"
+                android:paddingRight="@dimen/et_text_padding"
+                android:text="@string/cac_etCreateAccountCpf_hint" />
+
+            <EditText
+                android:id="@+id/etCreateAccountCpf"
+                style="@style/VisaCheckoutEditTextWithHint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvCreateAccountCpfHint"
+                android:hint="@string/cac_etCreateAccountCpf_hint"
+                android:maxLength="@integer/brazil_cpf_max_length"
+                android:inputType="number"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvCreateAccountPasswordHint"
+                style="@style/VisaCheckoutHintLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/createAccountCpfContainer"
+                android:layout_marginLeft="@dimen/adjusted_horizontal_margin"
+                android:layout_marginRight="@dimen/adjusted_horizontal_margin"
+                android:paddingLeft="@dimen/et_text_padding"
+                android:paddingRight="@dimen/et_text_padding"
+                android:text="@string/cac_etCreateAccountPassword_hint"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/etCreateAccountPassword"
+                style="@style/VisaCheckoutEditTextWithHint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvCreateAccountPasswordHint"
+                android:contentDescription="@string/cac_etCreateAccountPassword_hint"
+                android:hint="@string/cac_etCreateAccountPassword_hint"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/btCreateAccount"
+                style="@style/VisaCheckoutGoldButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rlCreateAccountUsernamePreferencesContainer"
+                android:layout_marginBottom="@dimen/sixty_px"
+                android:layout_marginTop="@dimen/sixty_px"
+                android:text="@string/cac_btCreateAccount" />
+
+            <TextView
+                android:id="@+id/tvCreateAccountNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btCreateAccount"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/layout_margin_left_right"
+                android:layout_marginRight="@dimen/layout_margin_left_right"
+                android:gravity="center_horizontal"
+                android:text="@string/cac_tvCreateAccountNext"
+                android:textColor="@color/global_font_medium_grey"
+                android:textSize="@dimen/global_font_small" />
+
+            <View
+                android:id="@+id/v_signup_footer_divider"
+                style="@style/VisaCheckoutDividerLine"
+                android:layout_below="@id/tvCreateAccountNext"
+                android:layout_marginTop="@dimen/hundred_px" />
+
+            <Spinner
+                android:id="@+id/spCreateAccountCountryPicker"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/global_drop_down_height"
+                android:layout_below="@id/v_signup_footer_divider"
+                android:layout_marginLeft="@dimen/adjusted_horizontal_margin"
+                android:layout_marginRight="@dimen/adjusted_horizontal_margin"
+                android:contentDescription="@string/acc_spn_country_picker_content_description"/>
+
+            <ImageView
+                android:id="@+id/iv_signup_terms_privacy_lock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/spCreateAccountCountryPicker"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/twenty_px"
+                android:layout_marginLeft="@dimen/layout_margin_left_right"
+                android:layout_marginRight="@dimen/pl_thirty_px"
+                android:layout_marginTop="@dimen/twenty_px"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/accessibility_secure_lock"
+                android:maxHeight="@dimen/pl_forty_five_px"
+                android:maxWidth="@dimen/pl_thirty_five_px"
+                android:minHeight="@dimen/pl_forty_five_px"
+                android:minWidth="@dimen/pl_thirty_five_px"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_lock" />
+
+            <TextView
+                android:id="@+id/tv_signup_terms_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spCreateAccountCountryPicker"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/twenty_four_px"
+                android:layout_marginRight="@dimen/layout_margin_left_right"
+                android:layout_marginTop="@dimen/twenty_four_px"
+                android:layout_toRightOf="@id/iv_signup_terms_privacy_lock"
+                android:text="@string/cac_tvCreateAccountWarningText"
+                android:textSize="@dimen/tv_info_label_size" />
+
+            <View
+                android:id="@+id/v_signup_footer_divider_bottom"
+                style="@style/VisaCheckoutDividerLine"
+                android:layout_below="@+id/tv_signup_terms_link"
+                android:layout_marginBottom="@dimen/ten_px" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView><!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/layout/visa_fragment_create_account.xml -->

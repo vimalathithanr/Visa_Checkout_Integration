@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/visa_checkout_layout_background">
+
+    <LinearLayout
+        android:id="@+id/ll_step_up_questions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_please_confirm_your_identity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/VisaCheckoutTextViewTitle"
+            android:text="@string/challenge_please_confirm_your_identify"
+            />
+
+        <include
+            android:id="@+id/challenge_tc_includedServerSideError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_please_confirm_your_identity"
+            layout="@layout/visa_server_side_error" />
+
+    </LinearLayout>
+</ScrollView><!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/layout/visa_fragment_signin_step_up2.xml --><!-- From: file:/C:/Users/virajase/Desktop/Mobile%20Suite/Latest%202.9/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-2.9/res/layout/visa_fragment_signin_step_up2.xml -->

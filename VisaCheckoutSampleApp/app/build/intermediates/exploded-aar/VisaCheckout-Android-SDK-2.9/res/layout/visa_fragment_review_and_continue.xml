@@ -1,0 +1,211 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sv_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/visa_checkout_layout_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_review_carousels"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_pay_with"
+                style="@style/VisaCheckoutTextViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/pl_thirty_px"
+                android:gravity="center"
+                android:text="@string/rc_tv_pay_with"
+                />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vp_card_carousel_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/payment_carousel_item_height_px"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/acc_vp_card_carousel"
+                android:overScrollMode="never"
+               >
+
+                <requestFocus />
+            </android.support.v4.view.ViewPager>
+
+            <View
+                android:id="@+id/v_r_c_divider"
+                style="@style/VisaCheckoutDividerLine"
+                android:layout_marginLeft="@dimen/layout_margin_left_right"
+                android:layout_marginRight="@dimen/layout_margin_left_right"
+                />
+
+            <TextView
+                android:id="@+id/tv_ship_to"
+                style="@style/VisaCheckoutTextViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/pl_thirty_px"
+                android:gravity="center"
+                android:text="@string/rc_tv_ship_to"
+               />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vp_address_carousel_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/address_carousel_layout_height"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/acc_vp_address_carousel"
+                android:overScrollMode="never"
+                />
+
+            <RelativeLayout
+                android:id="@+id/rl_billing_address"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/address_carousel_layout_height"
+                android:visibility="gone">
+
+                <include layout="@layout/visa_address_carousel_item" />
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/address_carousel_dark_background" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/vme_background"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:id="@+id/llAmountContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/pl_twenty_five"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvAmountCurrency"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="US"
+                        android:textColor="@color/global_font_medium_grey"
+                        android:textSize="@dimen/pl_forty_eight_px_sp" />
+
+                    <TextView
+                        android:id="@+id/tvAmountValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:hint="$1.00"
+                        android:textColor="@color/global_font_medium_grey"
+                        android:textSize="@dimen/pl_forty_eight_px_sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/bt_rc_pay_continue"
+                    style="@style/VisaCheckoutGoldButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/thirty_px"
+                    android:text="@string/bt_continue" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_merchant_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/twenty_px"
+                    android:layout_marginLeft="@dimen/sixty_px"
+                    android:layout_marginRight="@dimen/sixty_px"
+                    android:layout_marginTop="@dimen/twenty_px">
+
+                    <TextView
+                        android:id="@+id/tv_merchant_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:hint="@string/rc_tv_hint_merchant_name"
+                        android:maxLength="70"
+                        android:textColor="@color/tv_info_label_color"
+                        android:textSize="@dimen/pl_thirty_two_px_sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_rc_merchantlogo"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/pl_eighty_px"
+                        android:layout_below="@+id/tv_merchant_name"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/pl_twenty_px"
+                        android:contentDescription="@string/rc_merchant_logo_acc"
+                        android:src="@drawable/flowers_merchant_logo" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <include
+                android:id="@+id/r_and_c_terms"
+                layout="@layout/visa_layout_terms_privacy_lock_footer_rc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_sign_up_confirm_notification"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/pl_hundred_forty_px"
+            android:layout_weight="1"
+            android:background="@color/visa_checkout_layout_background"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_rc_check_confirm"
+                android:layout_width="@dimen/pl_forty_px"
+                android:layout_height="@dimen/pl_forty_px"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/pl_forty_px"
+                android:layout_marginLeft="@dimen/pl_forty_px"
+                android:layout_marginRight="@dimen/pl_thirty_px"
+                android:layout_marginTop="@dimen/pl_forty_px"
+                android:scaleType="fitXY"
+                android:src="@drawable/iv_check_confirm" />
+
+            <TextView
+                android:id="@+id/tv_sign_up_confirmation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/iv_rc_check_confirm"
+                android:hint="@string/tv_sign_up_confirmation"
+                android:textColor="@color/tv_title_color"
+                android:textSize="@dimen/thirty_seven_px_sp" />
+
+            <View
+                android:id="@+id/v_divider_update_t_c"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/ten_px"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/img_shadow" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>
+<!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/layout/visa_fragment_review_and_continue.xml -->

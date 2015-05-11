@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sv_address_suggestion_form_container"
+    android:background="@color/visa_checkout_layout_background"
+    android:isScrollContainer="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rl_body_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/sixty_px"
+        android:paddingRight="@dimen/sixty_px">
+
+        <include
+            android:id="@+id/address_suggestion_tv_visa_server_side_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/visa_server_side_error" />
+
+        <TextView
+            android:id="@+id/tv_address_suggestion_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/address_suggestion_tv_visa_server_side_error"
+            android:textSize="@dimen/bt_text_size"
+            android:layout_marginTop="@dimen/sixty_px"
+            android:textColor="@color/tv_title_color"
+            android:text="@string/tv_label_address_suggestion_verify" />
+
+        <TextView
+            android:id="@+id/tv_address_suggestion_recommended"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/seventy_px"
+            android:layout_alignLeft="@id/tv_address_suggestion_title"
+            android:text="@string/tv_label_address_suggestion_recommended"
+            android:textSize="@dimen/forty_two_px_sp"
+            android:textColor="@color/tv_title_color"
+            android:layout_below="@id/tv_address_suggestion_title"/>
+
+        <fragment android:name="com.visa.checkout.fragment.AddressSuggestionItemFragment"
+            android:id="@+id/fg_address_suggestion_suggested"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_alignLeft="@id/tv_address_suggestion_title"
+            tools:layout="@layout/visa_fragment_address_suggestion_item"
+            android:layout_below="@id/tv_address_suggestion_recommended"/>
+
+
+        <TextView
+            android:id="@+id/tv_address_suggestion_you_entered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/hundred_twenty_px"
+            android:layout_alignLeft="@id/tv_address_suggestion_title"
+            android:text="@string/tv_label_address_suggestion_you_entered"
+            android:textSize="@dimen/forty_two_px_sp"
+            android:textColor="@color/tv_title_color"
+            android:layout_below="@id/fg_address_suggestion_suggested"/>
+
+        <fragment android:name="com.visa.checkout.fragment.AddressSuggestionItemFragment"
+            android:id="@+id/fg_address_suggestion_you_entered"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_alignLeft="@id/tv_address_suggestion_title"
+            tools:layout="@layout/visa_fragment_address_suggestion_item"
+            android:layout_below="@id/tv_address_suggestion_you_entered"/>
+
+        <include
+            android:id="@+id/payment_terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_address_suggestion_title"
+            layout="@layout/visa_layout_terms_privacy_lock_footer"
+            android:layout_below="@id/fg_address_suggestion_you_entered"/>
+
+    </RelativeLayout>
+</ScrollView><!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/layout/visa_fragment_add_address_suggestions.xml -->

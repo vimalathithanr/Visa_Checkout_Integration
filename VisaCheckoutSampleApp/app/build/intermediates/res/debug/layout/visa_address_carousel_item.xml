@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_address_carousel_address"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:layout_centerHorizontal="true"
+    >
+    <LinearLayout
+        android:id="@+id/ll_visa_address_carousel_item"
+        android:layout_width="@dimen/carousel_item_width_px"
+        android:layout_height="@dimen/carousel_item_height_px"
+        android:background="@drawable/address_carousel_bkgnd"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/pl_forty_px"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv_address_carousel_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AddressCarouselContent"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:hint="@string/et_hint_add_address_name" />
+        <TextView
+            android:id="@+id/tv_address_carousel_line1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AddressCarouselContent"
+            android:hint="@string/et_hint_add_address_addressline1" />
+        <TextView
+            android:id="@+id/tv_address_carousel_line2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AddressCarouselContent"
+            android:hint="@string/et_hint_add_address_addressline2" />
+        <TextView
+            android:id="@+id/tv_address_carousel_line3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AddressCarouselContent"
+            android:hint="@string/et_hint_add_address_addressline3" />
+        <TextView
+            android:id="@+id/tv_address_carousel_citystatezip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AddressCarouselContent"
+            android:hint="@string/tv_hint_city_state_zip" />
+        <TextView
+            android:id="@+id/tv_address_carousel_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AddressCarouselContent"
+            android:hint="@string/et_hint_country" />
+        <ImageView
+            android:id="@+id/iv_add_new_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="@drawable/carousel_plus"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/iv_add_new_address_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:visibility="gone"
+            android:background="@drawable/carousel_plus"
+            android:layout_gravity="left"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_merchant_ship_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:textSize="@dimen/carousel_error_message_size"
+        android:textColor="@color/carousel_error_red"
+        android:text="@string/rc_tv_merchant_ship_msg"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout><!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/layout/visa_address_carousel_item.xml --><!-- From: file:/C:/Users/virajase/Desktop/Mobile%20Suite/Latest%202.9/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-2.9/res/layout/visa_address_carousel_item.xml -->

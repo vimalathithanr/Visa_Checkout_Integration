@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/ten_px">
+
+    <ImageView
+        android:id="@+id/ivErrorIcon"
+        android:layout_marginLeft="@dimen/layout_margin_left_right"
+        android:layout_width="@dimen/forty_px"
+        android:layout_height="@dimen/forty_px"
+        android:src="@drawable/error_icon"
+        android:visibility="gone"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/tvServerSideError_Message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/layout_margin_left_right"
+        android:textColor="@color/server_side_error_color"
+        android:layout_toRightOf="@id/ivErrorIcon"
+        android:layout_marginLeft="@dimen/twenty_px"
+        android:layout_alignTop="@+id/ivErrorIcon"
+        android:visibility="gone"
+        android:textSize="@dimen/pl_twelve_px_sp"
+        android:layout_centerVertical="true"
+        android:text="This is a server side error" />
+
+</RelativeLayout>
+<!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/layout/visa_server_side_error.xml --><!-- From: file:/C:/Users/virajase/Desktop/Mobile%20Suite/Latest%202.9/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-2.9/res/layout/visa_server_side_error.xml -->

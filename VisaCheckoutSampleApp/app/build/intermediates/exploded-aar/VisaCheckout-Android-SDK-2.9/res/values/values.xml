@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/values/visa_color.xml -->
+    <eat-comment/>
+    <integer-array name="visacheckout_progressbar_colors">
+        <item>@color/visa_progressbar_color</item>
+        <item>@color/visa_progressbar_color</item>
+    </integer-array>
+    <!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/values/visa_defaults.xml -->
+    <eat-comment/>
+    <bool name="spb_default_mirror_mode">false</bool>
+    <bool name="spb_default_reversed">false</bool>
+    <!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/values/visa_color.xml -->
+    <eat-comment/>
+    <color name="add_text_carousel">#529CD3</color>
+    <color name="address_carousel_dark_background">#CCCCCC</color>
+    <color name="address_carousel_text_color_selected">#333333</color>
+    <color name="address_suggestion_changed">#F99F00</color>
+    <color name="black">#000000</color>
+    <color name="brightred">#CC0033</color>
+    <color name="bt_text_color">#191F71</color>
+    <color name="button_disabled">#B9D5ED</color>
+    <color name="carousel_error_red">#D1131F</color>
+    <color name="et_hint_color">#999999</color>
+    <color name="exo_blue_link">#3232A0</color>
+    <color name="exo_dark_grey_semitransparent">#B3333333</color>
+    <color name="exo_go_text">#1a1f71</color>
+    <color name="exo_white_link">#ffffff</color>
+    <color name="exo_white_semitransparent">#B3FFFFFF</color>
+    <color name="footer_divider_color">#EEEEEE</color>
+    <color name="footer_link_color">#003EA9</color>
+    <color name="global_font_button">#191F71</color>
+    <color name="global_font_dark_grey">#333333</color>
+    <color name="global_font_error_red">#D11321</color>
+    <color name="global_font_hyperlink">#003EA9</color>
+    <color name="global_font_light_grey">#CCCCCC</color>
+    <color name="global_font_medium_grey">#777777</color>
+    <color name="gold_streamer">#FFC704</color>
+    <color name="gold_streamer_alpha">#78FFC704</color>
+    <color name="grey">#A0A0A0</color>
+    <color name="label_hint_color">#FF666666</color>
+    <color name="no_transparent_white">#FFFFFFFF</color>
+    <color name="orange">#FF8000</color>
+    <color name="red">#FF0000</color>
+    <color name="sandbox_layout_color">#FC9900</color>
+    <color name="semi_transparent_white">#AAFFFFFF</color>
+    <color name="server_side_error_color">#D30C16</color>
+    <color name="signin_remember_username_banner_bg">#EEEEEE</color>
+    <!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/values/visa_defaults.xml -->
+    <eat-comment/>
+    <color name="spb_default_color">#33b5e5</color>
+    <!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/values/visa_color.xml -->
+    <eat-comment/>
+    <color name="toggle_background">#E1E1E1</color>
+    <color name="toggle_thumb">#999999</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="tv_info_label_color">#777777</color>
+    <color name="tv_title_color">#333333</color>
+    <color name="visa_checkout_layout_background">#FFFFFFFF</color>
+    <color name="visa_forgot_password_bg_color">#F0EEEF</color>
+    <color name="visa_progressbar_color">#777777</color>
+    <color name="visa_progressbar_color_alpha">#77777777</color>
+    <color name="visa_progressbar_color_blue_dark">#0077A2</color>
+    <color name="visa_progressbar_color_blue_light">#0098CD</color>
+    <color name="visa_tab_divider_color">#DDDDDD</color>
+    <color name="visablue">#0044AA</color>
+    <color name="visabluetext">#09458D</color>
+    <color name="visagold">#FFC666</color>
+    <color name="vme_background">#F5F5F5</color>
+    <color name="vme_blue">#0077A2</color>
+    <color name="vme_button_disabled">#999999</color>
+    <color name="vme_grey_bg">#eeeef1</color>
+    <color name="vme_light_background">#EEEEF1</color>
+    <color name="vme_light_grey">#999999</color>
+    <color name="vme_mid_blue">#0098CD</color>
+    <color name="vme_title_blue">#0098CD</color>
+    <color name="white">#FFFFFF</color>
+    <declare-styleable name="SmoothProgressBar"><attr format="reference" name="spbStyle"/><attr format="color" name="spb_color"/><attr format="dimension" name="spb_stroke_width"/><attr format="dimension" name="spb_stroke_separator_length"/><attr format="integer" name="spb_sections_count"/><attr format="float" name="spb_speed"/><attr format="enum" name="spb_interpolator"><enum name="spb_interpolator_accelerate" value="0"/><enum name="spb_interpolator_linear" value="1"/><enum name="spb_interpolator_acceleratedecelerate" value="2"/><enum name="spb_interpolator_decelerate" value="3"/></attr><attr format="boolean" name="spb_reversed"/><attr format="boolean" name="spb_mirror_mode"/><attr format="reference" name="spb_colors"/></declare-styleable>
+    <declare-styleable name="VisaPaymentButton"><attr format="string" name="visaEnvironment"/><attr format="string" name="visaMerchantApiKey"/><attr format="string" name="visaMerchantProfileName"/><attr format="integer" name="visaPaymentButtonHeight"/><attr format="integer" name="visaPaymentButtonWidth"/><attr format="string" name="visaColor"/></declare-styleable>
+    <!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/values/visa_dimens.xml -->
+    <eat-comment/>
+    <dimen name="address_carousel_layout_height">140dp</dimen>
+    <dimen name="adjusted_horizontal_margin">18.4dp</dimen>
+    <dimen name="back_nav_padding">22.132dp</dimen>
+    <dimen name="bt_height">44.626dp</dimen>
+    <dimen name="bt_radius">2.902dp</dimen>
+    <dimen name="bt_text_size">20sp</dimen>
+    <dimen name="card_carouse_top_margin">15.238dp</dimen>
+    <dimen name="carousel_error_message_size">10.159sp</dimen>
+    <dimen name="carousel_item_background_radius_px">3dp</dimen>
+    <dimen name="carousel_item_height_px">96dp</dimen>
+    <dimen name="carousel_item_width_px">152dp</dimen>
+    <dimen name="carousel_visa_ending_hint">11.610sp</dimen>
+    <dimen name="contact_icon_width_height">22.494dp</dimen>
+    <dimen name="create_account_screen_padding">4dp</dimen>
+    <dimen name="credit_card_logo_height">@dimen/seventy_px</dimen>
+    <dimen name="credit_card_logo_width">42.812dp</dimen>
+    <dimen name="divider_height_px">2px</dimen>
+    <dimen name="eighty_px">29.025dp</dimen>
+    <dimen name="eighty_seven_px">31.565dp</dimen>
+    <dimen name="et_form_spacing">@dimen/thirty_seven_px</dimen>
+    <dimen name="et_text_padding">13.424dp</dimen>
+    <dimen name="et_textsize">14sp</dimen>
+    <dimen name="fifty_px">18.141dp</dimen>
+    <dimen name="five_px">1.814dp</dimen>
+    <dimen name="footer_divider_width">1.451dp</dimen>
+    <dimen name="forty_px">14.512dp</dimen>
+    <dimen name="forty_two_px">15.238dp</dimen>
+    <dimen name="forty_two_px_sp">15.238sp</dimen>
+    <dimen name="fourty_five_px">16.327dp</dimen>
+    <dimen name="global_drop_down_height">55.147dp</dimen>
+    <dimen name="global_font_large">16sp</dimen>
+    <dimen name="global_font_medium">15sp</dimen>
+    <dimen name="global_font_small">14sp</dimen>
+    <dimen name="global_font_xlarge">20sp</dimen>
+    <dimen name="global_font_xsmall">13sp</dimen>
+    <dimen name="global_font_xxsmall">11sp</dimen>
+    <dimen name="header_gold_streamer_height">5.056dp</dimen>
+    <dimen name="header_height">50.564dp</dimen>
+    <dimen name="header_visalogo_height">18.141dp</dimen>
+    <dimen name="header_visalogo_width">122.630dp</dimen>
+    <dimen name="hundred_forty_px">50.794dp</dimen>
+    <dimen name="hundred_px">36.28dp</dimen>
+    <dimen name="hundred_twenty_px">43.537dp</dimen>
+    <dimen name="layout_margin_left_right">21.768dp</dimen>
+    <dimen name="layout_margin_title_top">21.768dp</dimen>
+    <dimen name="location_icon_width_height">29.025dp</dimen>
+    <dimen name="ninty_px">32.653dp</dimen>
+    <dimen name="payment_carousel_item_height_px">165dp</dimen>
+    <dimen name="pi_cvv_card_image_height">25.397dp</dimen>
+    <dimen name="pi_cvv_card_image_width">42.812dp</dimen>
+    <dimen name="pl_eighty_px">29.025dp</dimen>
+    <dimen name="pl_fifteen_px">5.442dp</dimen>
+    <dimen name="pl_forty_eight_px_sp">17.145sp</dimen>
+    <dimen name="pl_forty_five_px">16.327dp</dimen>
+    <dimen name="pl_forty_px">14.512dp</dimen>
+    <dimen name="pl_forty_seven_px">17dp</dimen>
+    <dimen name="pl_hundred_forty_px">50.794dp</dimen>
+    <dimen name="pl_hundred_px">36.28dp</dimen>
+    <dimen name="pl_seventy_px">25.397dp</dimen>
+    <dimen name="pl_sixty_px">21.768dp</dimen>
+    <dimen name="pl_thirty_five_px">12.698dp</dimen>
+    <dimen name="pl_thirty_px">10.884dp</dimen>
+    <dimen name="pl_thirty_two_px_sp">11.610sp</dimen>
+    <dimen name="pl_three_px">1dp</dimen>
+    <dimen name="pl_twelve_px_sp">12sp</dimen>
+    <dimen name="pl_twenty_five">9dp</dimen>
+    <dimen name="pl_twenty_px">8dp</dimen>
+    <dimen name="seventy_five_px">27.211dp</dimen>
+    <dimen name="seventy_px">25.397dp</dimen>
+    <dimen name="seventy_two_px_watermark">27dp</dimen>
+    <dimen name="sixteen_px">5.805dp</dimen>
+    <dimen name="sixty_five_px">23.583dp</dimen>
+    <dimen name="sixty_px">21.768dp</dimen>
+    <dimen name="sixty_seven_px">24.308dp</dimen>
+    <!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/values/visa_defaults.xml -->
+    <eat-comment/>
+    <dimen name="spb_default_stroke_separator_length">4dp</dimen>
+    <dimen name="spb_default_stroke_width">4dp</dimen>
+    <!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/values/visa_dimens.xml -->
+    <eat-comment/>
+    <dimen name="spb_height">3.628dp</dimen>
+    <dimen name="tab_container_height">49dp</dimen>
+    <dimen name="tab_divider_height">19.592dp</dimen>
+    <dimen name="tab_divider_width">2dp</dimen>
+    <dimen name="tab_indicator_height">10.159dp</dimen>
+    <dimen name="tab_indicator_width">26.122dp</dimen>
+    <dimen name="tab_text_size">16sp</dimen>
+    <dimen name="ten_px">3.628dp</dimen>
+    <dimen name="thirteen_px">4.717dp</dimen>
+    <dimen name="thirty_five_px">12.698dp</dimen>
+    <dimen name="thirty_one_px">11.247dp</dimen>
+    <dimen name="thirty_px">10.884dp</dimen>
+    <dimen name="thirty_seven_px">13.424dp</dimen>
+    <dimen name="thirty_seven_px_sp">13.424sp</dimen>
+    <dimen name="thirty_two_px">11.610sp</dimen>
+    <dimen name="three_ds_wv_height">333.33dp</dimen>
+    <dimen name="toggle_height_px">30.565dp</dimen>
+    <dimen name="toggle_width_px">73.739dp</dimen>
+    <dimen name="tv_info_label_size">14sp</dimen>
+    <dimen name="twenty_eight_px">10.159sp</dimen>
+    <dimen name="twenty_five_px">9.070dp</dimen>
+    <dimen name="twenty_four_px">8.707dp</dimen>
+    <dimen name="twenty_px">7.256dp</dimen>
+    <dimen name="twenty_seven_px">9.796dp</dimen>
+    <dimen name="twenty_six_px_watermark">10dp</dimen>
+    <dimen name="two_hundred_px">72.562dp</dimen>
+    <dimen name="update_t_c_advise_height">180.317dp</dimen>
+    <dimen name="update_t_c_wv_height">411.066dp</dimen>
+    <dimen name="visa_exo_button_height">90dp</dimen>
+    <dimen name="watermark_text">9sp</dimen>
+    <!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/values/visa_defaults.xml -->
+    <eat-comment/>
+    <integer name="brazil_cpf_max_length">14</integer>
+    <integer name="card_cvv_max_symbol_count">4</integer>
+    <integer name="card_expiration_date_max_symbol_count">5</integer>
+    <integer name="card_nickname_max_symbol_count">140</integer>
+    <integer name="card_number_max_symbol_count">19</integer>
+    <integer name="card_number_min_symbol_count">13</integer>
+    <integer name="create_account_edittext_maxlength">256</integer>
+    <integer name="ime_action_done">6</integer>
+    <integer name="spb_default_interpolator">0</integer>
+    <integer name="spb_default_sections_count">4</integer>
+    <integer name="visa_address_line3_max_length">100</integer>
+    <integer name="visa_address_max_length">140</integer>
+    <integer name="visa_city_max_length">100</integer>
+    <integer name="visa_min_android_sdk_version_supported">14</integer>
+    <integer name="visa_name_max_length">24</integer>
+    <integer name="visa_name_on_address_max_length">120</integer>
+    <integer name="visa_phone_max_length">16</integer>
+    <integer name="visa_phone_min_length">1</integer>
+    <integer name="visa_state_max_length">100</integer>
+    <integer name="visa_state_min_length">1</integer>
+    <integer name="visa_zip_max_length">16</integer>
+    <integer name="visa_zip_min_length">1</integer>
+    <!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/values/visa_string_common.xml -->
+    <eat-comment/>
+    <string name="acc_add_a_card">Add a new card</string>
+    <string name="acc_add_address">Add a new address</string>
+    <string name="acc_card_brand">Card brand %1$s </string>
+    <string name="acc_card_brand_detected">Card brand %1$s was recognised </string>
+    <string name="acc_card_ending_in">%1$s card ending in %2$s</string>
+    <string name="acc_cvv_card_type_amex">a four-digit code printed on the front side of the card above the number</string>
+    <string name="acc_cvv_card_type_non_amex">a three-digit code printed on the back side of the card to the right of the signature strip</string>
+    <string name="acc_forgotPassword_title_collect_username">Forgot Your Password? Enter your email address to get the instructions</string>
+    <string name="acc_forgotPassword_title_link_sent">Forgot Password. Instructions were sent to your email</string>
+    <string name="acc_spn_country_picker_content_description">Select country</string>
+    <string name="acc_spn_locale_picker_content_description">Select locale</string>
+    <string name="acc_visa_checkout_button">Visa Checkout</string>
+    <string name="acc_vp_address_carousel">Address Carousel, swipe left or right to select different address. Go to extreme right to add a new address</string>
+    <string name="acc_vp_card_carousel">Card Carousel, swipe left or right to select different card. Go to extreme right to add a new card</string>
+    <string name="accessibility_3ds_logo">You are on a 3DS secure page</string>
+    <string name="accessibility_logo_amex">American Express logo</string>
+    <string name="accessibility_logo_disc">Discover logo</string>
+    <string name="accessibility_logo_mc">Master Card logo</string>
+    <string name="accessibility_logo_visa">Visa logo</string>
+    <string name="accessibility_secure_lock">You are on a secure page</string>
+    <string name="add_address_preferred_content_description">This is my preferred shipping address</string>
+    <string name="address_delete_success">Successfully deleted the address</string>
+    <string name="address_suggestion_accessiibility_title">Suggested Address</string>
+    <string name="address_tray_delete_card">Delete this address</string>
+    <string name="address_tray_edit_card">Edit this address</string>
+    <string name="alert_exit_add_address_title">Exit Address</string>
+    <string name="alert_exit_add_address_title_text">Are you sure you want to stop editing this address?</string>
+    <string name="alert_exit_confirm_delete_address_title">Delete</string>
+    <string name="alert_exit_confirm_delete_address_title_text">Are you sure you want to delete this shipping address?</string>
+    <string name="alert_exit_enrollment_title">Exit Enrollment</string>
+    <string name="alert_exit_enrollment_title_text">Are you sure you want to stop creating your account?</string>
+    <string name="alert_locked_title">Locked Account</string>
+    <string name="alert_locked_title_text">To prevent unauthorized access, we have locked your account for one hour. Please try again later</string>
+    <string name="alert_max_attempts_title">Locked Account</string>
+    <string name="alert_max_attempts_title_text">We apologize for any inconvenience, but you have exceeded the maximum amount of attempts allowed. You can try again after one hour</string>
+    <string name="alert_retry_title">Retry</string>
+    <string name="alert_retry_title_text">There seems to be a problem with deleting this address. Do you want to retry?</string>
+    <string name="alert_signin_failure_description">Your Visa Checkout password was incorrect. Please try again.</string>
+    <string name="alert_signin_failure_title">Couldn\'t log in</string>
+    <string name="argentina">Argentina</string>
+    <string name="australia">Australia</string>
+    <string name="brazil">Brazil</string>
+    <string name="bt_address_suggestion_use_this">Use this Address</string>
+    <string name="bt_back">Back</string>
+    <string name="bt_cancel">Cancel</string>
+    <string name="bt_continue">Continue</string>
+    <string name="bt_delete">Delete</string>
+    <string name="bt_done">Done</string>
+    <string name="bt_edit_address">Edit this Address</string>
+    <string name="bt_forgotPassword_sendInstructions">Send Email</string>
+    <string name="bt_label_add_address_continue">Continue</string>
+    <string name="bt_no">No</string>
+    <string name="bt_okay">OK</string>
+    <string name="bt_pay">Pay</string>
+    <string name="bt_retry">Retry</string>
+    <string name="bt_save_address">Save this Address</string>
+    <string name="bt_update_tc_agree">Agree and Continue</string>
+    <string name="bt_yes">Yes</string>
+    <string name="cac_btCreateAccount">Create Account &amp; Continue</string>
+    <string name="cac_etCreateAccountConfirmationEmail_hint">Email Address (Order Confirmation)</string>
+    <string name="cac_etCreateAccountCpf_hint">Add CPF</string>
+    <string name="cac_etCreateAccountCpf_secondaryHint">11 digits</string>
+    <string name="cac_etCreateAccountPassword_hint">Add Password</string>
+    <string name="cac_etCreateAccountPassword_secondaryHint">Minimum 6 Characters</string>
+    <string name="cac_etCreateAccountUsernameEmail_hint">Email Address (Username)</string>
+    <string name="cac_etCreateAccountUsernamePhoneNumber_hint">Mobile Number (Username)</string>
+    <string name="cac_tvCreateAccountNext"><b>Next:</b> Review &amp; confirm your payment details</string>
+    <string name="cac_tvCreateAccountTitle">Create Your Visa Checkout Account</string>
+    <string name="cac_tvCreateAccountUseMobileNumberLabel"> as username instead</string>
+    <string name="cac_tvCreateAccountUseMobileNumberLink">Use mobile number</string>
+    <string name="cac_tvCreateAccountUseMobileNumberLink_content_description">Use mobile number as username instead. Link</string>
+    <string name="cac_tvCreateAccountWarningText">By tapping “Create Account &amp; Continue" you agree to Visa Checkout\'s Terms of Service and Privacy Policy, and agree to receive account notices from Visa Checkout via email or electronically instead of by mail</string>
+    <string name="canada">Canada</string>
+    <string name="challenge_multianswer_list_header_text">Please select the credit card you registered with</string>
+    <string name="challenge_please_confirm_your_identify">Please Confirm Your Identity</string>
+    <string name="chile">Chile</string>
+    <string name="china">China</string>
+    <string name="colombia">Colombia</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_discard_changes_title">Discard Changes</string>
+    <string name="dialog_discard_changes_title_text">Are you sure you want to discard your changes and go back?</string>
+    <string name="dialog_exit">Exit</string>
+    <string name="dialog_exit_title">Exit Payment</string>
+    <string name="dialog_exit_title_text">Are you sure you want to close Visa Checkout?</string>
+    <string name="dialog_retry">Retry</string>
+    <string name="dialog_server_problem">Sorry, but we are unable to process your request at this time. Please try again later</string>
+    <string name="dialog_username_button_text">Visa Checkout will display your credit or debit card design providing you with a more personalized shopping experience</string>
+    <string name="dialog_username_remember_text">Your username will be remembered on this device. Enter only your password when signing in</string>
+    <string name="dialog_username_title">Personalize your experience with Visa Checkout!</string>
+    <string name="electronicCommunicationsPolicy">Electronic Communications Policy</string>
+    <string name="error_add_pi_failed">Your payment information is incorrect. Please try again</string>
+    <string name="error_enroll_generic">Sorry, we are unable to process your request at this time. Try again later, or create a new account</string>
+    <string name="error_identity_not_confirmed">Identity not confirmed</string>
+    <string name="error_internal_error_caused_sdk_exit">An internal error caused the payment to be aborted</string>
+    <string name="error_invalid_password">Please choose another password that meets the minimum requirements</string>
+    <string name="error_network_problem">There seems to be a problem with the network. Please try again</string>
+    <string name="error_no_cards_on_file">Oops, looks like you have no cards on file. Please add a credit or debit card to continue with this purchase.</string>
+    <string name="error_ofac_deny">Your Visa Checkout account is unavailable at this time. Please contact Customer Support</string>
+    <string name="error_password_conflict">According to our records, this email address or mobile number is already enrolled in a Visa Checkout account</string>
+    <string name="error_password_consecutive_identical_chars">Password cannot contain more than 3 consecutive identical characters</string>
+    <string name="error_password_contains_portion_of_account_name_or_space">Password cannot contain spaces or a portion of your username</string>
+    <string name="error_password_insufficient">Password must contain at least 6 characters</string>
+    <string name="error_password_invalid_chars">Supported special characters include: ! @ # $ % &amp; * ?</string>
+    <string name="error_password_required">Enter password</string>
+    <string name="error_password_too_long">Password must not contain more than 32 characters</string>
+    <string name="error_payment_problem">Your payment cannot be processed. Please correct your card information and try again</string>
+    <string name="error_session_expired_title">Session Expired</string>
+    <string name="error_session_timed_out">For security reasons, your session has timed out due to inactivity</string>
+    <string name="error_sign_in_challenge_lock">Sorry, the answer you provided does not match the one in our records. For your protection and to prevent unauthorized access, we\'ve temporarily locked your account. Try again later, or create a new account</string>
+    <string name="error_sign_in_genric">Sorry, we are unable to process your request at this time. Try again later, or create a new account</string>
+    <string name="error_sign_in_lock">Sorry, for your protection, we\'ve locked your account. Click on "Forgot Password" if you have forgotten your password, or create a new account if you have forgotten your username</string>
+    <string name="error_sign_in_login_failed">Sorry, we are unable to locate your account. Please check your username or password</string>
+    <string name="error_something_went_wrong">We apologize for any inconvenience, but we’re experiencing some technical difficulties. Please try again later</string>
+    <string name="error_something_went_wrong_title">Something went wrong</string>
+    <string name="error_step_up_generic">Sorry, we are unable to process your request at this time. Try again later, or create a new account</string>
+    <string name="error_step_up_session_end">Sorry, due to inactivity, your current session will end now</string>
+    <string name="error_stepup_lockout">Sorry, you\'ve exceeded the number of allowed attempts. For your protection and to prevent unauthorized access, we\'ve temporarily locked your account. Try again later, or create a new account</string>
+    <string name="error_unable_to_process_request">Sorry, but we are unable to process your request at this time. Please try again later</string>
+    <string name="error_username_already_present">There is already a username associated with this email address. If you\'ve forgotten your password, please use "Forgot Password" to reset it.</string>
+    <string name="et_add_address_post_code_title">Postcode</string>
+    <string name="et_add_address_postal_code_title">Postal Code</string>
+    <string name="et_add_address_state_ca_title">Province</string>
+    <string name="et_add_address_state_title">State</string>
+    <string name="et_add_address_zip_code_title">Zip Code</string>
+    <string name="et_hint_add_Address_zip_postcode">ZIP/Postal Code</string>
+    <string name="et_hint_add_address_addressline">Address</string>
+    <string name="et_hint_add_address_addressline1">Address Line 1</string>
+    <string name="et_hint_add_address_addressline2">Address Line 2</string>
+    <string name="et_hint_add_address_addressline3">Address Line 3</string>
+    <string name="et_hint_add_address_addressline3_nz">Suburb</string>
+    <string name="et_hint_add_address_city">City</string>
+    <string name="et_hint_add_address_city_town">City/Town</string>
+    <string name="et_hint_add_address_name">Name (First and Last)</string>
+    <string name="et_hint_add_address_phone_number">Phone Number</string>
+    <string name="et_hint_add_address_state">State</string>
+    <string name="et_hint_add_address_state_province">State/Province</string>
+    <string name="et_hint_add_address_zip">Zip</string>
+    <string name="et_hint_country">Country</string>
+    <string name="exo_button_go">Go</string>
+    <string name="exo_button_signin_link">Not %1$s? Sign in</string>
+    <string name="exo_forgot_password_link">Forgot?</string>
+    <string name="exo_password_hint">Enter Password</string>
+    <string name="hongkong">Hong Kong</string>
+    <string name="iv_show_address_line_2">Show Address Line 2</string>
+    <string name="malaysia">Malaysia</string>
+    <string name="mexico">Mexico</string>
+    <string name="new_zealand">New Zealand</string>
+    <string name="password_hint">Password</string>
+    <string name="payment_tray_delete_card">Delete this card</string>
+    <string name="payment_tray_edit_card">Edit this card</string>
+    <string name="peru">Peru</string>
+    <string name="pi_bt_edit_done">Update &amp; Continue</string>
+    <string name="pi_bt_payment_done">Continue</string>
+    <string name="pi_confirm_delete">Are you sure you want to delete the card ending in %1$s?</string>
+    <string name="pi_confirm_delete_nocard">Are you sure you want to delete this card?</string>
+    <string name="pi_delete_success">Successfully deleted the card ending in %1$s</string>
+    <string name="pi_error_account_locked">Sorry, for your protection and to prevent unauthorized access, we\'ve temporarily locked your account. Try again later, or create a new account</string>
+    <string name="pi_error_brazil_cpf_invalid">Invalid CPF</string>
+    <string name="pi_error_brazil_cpf_missing">Enter CPF</string>
+    <string name="pi_error_cannot_add_payment">Cannot add an address without all card details are valid</string>
+    <string name="pi_error_card_already_added">Sorry, the card number you entered already exists in your Visa Checkout account. Please try a different card</string>
+    <string name="pi_error_card_date_expired">Your card has expired. Please select a different card</string>
+    <string name="pi_error_card_expiration_date_invalid">Invalid date</string>
+    <string name="pi_error_card_expiration_date_missing">Enter date</string>
+    <string name="pi_error_card_invalid">Invalid card number</string>
+    <string name="pi_error_card_nickname_empty_invalid">Invalid nick name</string>
+    <string name="pi_error_card_number_missing">Enter card number</string>
+    <string name="pi_error_card_sec_code_invalid">Invalid security code</string>
+    <string name="pi_error_card_sec_code_missing">Enter security code</string>
+    <string name="pi_error_card_unsupported">Only the above card brands are supported by this Merchant</string>
+    <string name="pi_error_forbidden">Sorry, you have exceeded the maximum allowed attempts to add or edit a payment method. Please try again after 24 hours</string>
+    <string name="pi_error_generic">Sorry, we are unable to process your request at this time. Try using another card</string>
+    <string name="pi_error_incorrect_details">Sorry, your payment information is incorrect. Please try again</string>
+    <string name="pi_error_unable_to_add">Sorry, you  will not be allowed to add a card at this time. Try using an existing card</string>
+    <string name="pi_et_card_cvv_hint">Security Code</string>
+    <string name="pi_et_card_cvv_secondary_hint">xxx</string>
+    <string name="pi_et_card_cvv_secondary_hint_amex">xxxx</string>
+    <string name="pi_et_card_expiration_hint">Expires</string>
+    <string name="pi_et_card_expiration_hint_content_description">Enter expiration date</string>
+    <string name="pi_et_card_expiration_secondary_hint">MM/YY</string>
+    <string name="pi_et_card_nickname_hint">Card Nickname (Optional)</string>
+    <string name="pi_et_card_nickname_secondary_hint">E.g., My Points Card, Joint Card</string>
+    <string name="pi_et_card_number_hint">Card Number</string>
+    <string name="pi_retry_delete">There seems to be a problem deleting this card. Do you want to retry?</string>
+    <string name="pi_tv_addpayment_title">Add Your Card</string>
+    <string name="pi_tv_ba_label">Billing Address</string>
+    <string name="pi_tv_card_preferred">This is your preferred card to pay with</string>
+    <string name="pi_tv_editpayment_title">Edit Your Card</string>
+    <string name="pi_tv_footer_terms">Visa Checkout may share information about how you use this card in Visa Checkout with the financial institution that issued the card for customer service, usage analysis, fraud prevention and marketing related to Visa Checkout</string>
+    <string name="pi_tv_is_card_preferred">Preferred card to pay with</string>
+    <string name="pi_tv_next">Next: You\'ll create your Visa Checkout account</string>
+    <string name="pi_tv_next_billing_address">Next: Add your billing address</string>
+    <string name="privacyPolicy">Privacy Policy</string>
+    <string name="rc_accessibility_title">Review payment and shipping information to complete purchase</string>
+    <string name="rc_accessibility_title_digital_flow">Review payment information to complete purchase</string>
+    <string name="rc_card_logo_acc">You pressed on the card</string>
+    <string name="rc_card_number">(x-%1$s)</string>
+    <string name="rc_card_number_no_nickname">%1$s x-%2$s</string>
+    <string name="rc_expired_card">Expired: %1$s/%2$s</string>
+    <string name="rc_expires_card">Expires %1$s/%2$s</string>
+    <string name="rc_merchant_logo_acc">You pressed the merchant logo</string>
+    <string name="rc_tv_billing_address">Billing Address</string>
+    <string name="rc_tv_card_details">Card Details</string>
+    <string name="rc_tv_hint_merchant_name">Continue to %1$s to complete your purchase</string>
+    <string name="rc_tv_hint_merchant_name_digital_checkout">You\'ll return to %1$s</string>
+    <string name="rc_tv_merchant_not_support_billing_msg">Billing address not supported by merchant</string>
+    <string name="rc_tv_merchant_not_support_card_brand_msg">%1$s not accepted by merchant</string>
+    <string name="rc_tv_merchant_ship_msg">Merchant doesn\'t ship to this address</string>
+    <string name="rc_tv_pay_with">Pay with</string>
+    <string name="rc_tv_ship_to">Ship to</string>
+    <string name="rc_tv_total">Total: </string>
+    <string name="rc_unaccepted_by_merchant">Currently not accepted by Merchant</string>
+    <string name="rc_unverified_missing_info">Additional card information required</string>
+    <string name="sandbox_watermark">FOR TESTING PURPOSES ONLY</string>
+    <string name="scan_your_card_using_camera">Scan your card using device camera</string>
+    <string name="sign_up_notifications_email_invalid_error">Invalid email address</string>
+    <string name="sign_up_notifications_email_required_error">Enter email address</string>
+    <string name="sin_btSignIn">Sign In</string>
+    <string name="sin_sup_username_invalid_error">Invalid username</string>
+    <string name="sin_tvSignInContinue">Continue</string>
+    <string name="sin_tvSignInContinue_content_description">Continue to Sign Up. Link</string>
+    <string name="sin_tvSignInForgotPassword">Forgot Password?</string>
+    <string name="sin_tvSignInForgotPassword_content_description">Forgot Password? link</string>
+    <string name="sin_tvSignInNoVisaCheckoutAccount">Don\'t have a Visa Checkout account?</string>
+    <string name="sin_tvSignInTitleSignIn">Sign In To Visa Checkout</string>
+    <string name="sin_tvSignInTitleWelcome">Welcome Back!</string>
+    <string name="singapore">Singapore</string>
+    <string name="south_africa">South Africa</string>
+    <!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/values/visa_defaults.xml -->
+    <eat-comment/>
+    <item format="float" name="spb_default_speed" type="string">1.0</item>
+    <!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/values/visa_string_common.xml -->
+    <eat-comment/>
+    <string name="step_up_answer_hint">Answer</string>
+    <string name="step_up_required_field">This field is required</string>
+    <string name="sup_btSignUpContinue">Continue as New Customer</string>
+    <string name="sup_etSignUpConfirmationEmail_hint">Email Address (For Order Confirmation)</string>
+    <string name="sup_etSignUpFirstName_hint">First Name</string>
+    <string name="sup_etSignUpLastName_hint">Last Name</string>
+    <string name="sup_tvSignUpAlreadyHaveAccount">Already have a Visa Checkout Account?</string>
+    <string name="sup_tvSignUpInfo">That\'s okay, you can still checkout. You\'ll be asked to create an account during checkout</string>
+    <string name="sup_tvSignUpSignIn">Sign In </string>
+    <string name="sup_tvSignUpSignIn_content_description">Continue to Sign In. Link</string>
+    <string name="sup_tvSignUpTitle">New to Visa Checkout?</string>
+    <string name="tc_accessibility_title">Terms and Conditions</string>
+    <string name="termsOfService">Terms of Service</string>
+    <string name="threeDS_fail_card_message">Not available for use</string>
+    <string name="threeDS_fail_page_message">Sorry, your financial institution was unable to authenticate your card. For your security, please use another card.</string>
+    <string name="tvSignIn_Preferences">Remember Username &amp; Preferences on this device</string>
+    <string name="tvSignIn_Preferences_content_description">Remember Username &amp; Preferences on this device. Link</string>
+    <string name="tvSignIn_Preferences_linkify_anchor">Username</string>
+    <string name="tvSignUp_fname_error">Enter your first name</string>
+    <string name="tvSignUp_fname_error_invalid_chars">You\'ve entered an invalid character. Please re-enter your first name</string>
+    <string name="tvSignUp_lname_error">Enter your last name</string>
+    <string name="tvSignUp_lname_error_invalid_chars">You\'ve entered an invalid character. Please re-enter your last name</string>
+    <string name="tv_3ds_secure_message_mc">This card is enrolled in MasterCard® SecureCode™. For your protection, your financial institution is requesting that you authenticate the transaction before you can continue.</string>
+    <string name="tv_3ds_secure_message_visa">This card is enrolled in Verified by Visa. For your protection, your financial institution is requesting your Consumer Authentication password before you can continue.</string>
+    <string name="tv_add_address_billing_title">Add Your Billing Address</string>
+    <string name="tv_add_address_city_invalid_error">Invalid city</string>
+    <string name="tv_add_address_city_invalid_error_au">Invalid city/suburb</string>
+    <string name="tv_add_address_city_invalid_error_ca">Invalid city/town</string>
+    <string name="tv_add_address_city_required_error">Enter city</string>
+    <string name="tv_add_address_city_required_error_au">Enter city/suburb</string>
+    <string name="tv_add_address_city_required_error_ca">Enter city/town</string>
+    <string name="tv_add_address_invalid_address">Please enter valid address information</string>
+    <string name="tv_add_address_is_preferred">This is your preferred shipping address</string>
+    <string name="tv_add_address_line3_invalid_error_nz">Invalid suburb</string>
+    <string name="tv_add_address_line3_required_error_nz">Enter suburb</string>
+    <string name="tv_add_address_line_invalid_error">Invalid address</string>
+    <string name="tv_add_address_next_billing">Next: You\'ll create your Visa Checkout account</string>
+    <string name="tv_add_address_next_shipping">Next: You\'ll add your card</string>
+    <string name="tv_add_address_phone_invalid_error">Invalid phone number</string>
+    <string name="tv_add_address_phone_invalid_error_au">Invalid phone number</string>
+    <string name="tv_add_address_phone_required_error">Enter phone number</string>
+    <string name="tv_add_address_preferred">Preferred shipping address</string>
+    <string name="tv_add_address_required_error">Enter address</string>
+    <string name="tv_add_address_state_invalid_error">Invalid state</string>
+    <string name="tv_add_address_state_invalid_error_ca">Invalid province</string>
+    <string name="tv_add_address_state_required_error">Enter state</string>
+    <string name="tv_add_address_state_required_error_ca">Enter province</string>
+    <string name="tv_add_address_zip_invalid_error">Invalid zip code</string>
+    <string name="tv_add_address_zip_invalid_error_au">Invalid postcode</string>
+    <string name="tv_add_address_zip_invalid_error_ca">Invalid postal code</string>
+    <string name="tv_add_address_zip_required_error">Enter zip code</string>
+    <string name="tv_add_address_zip_required_error_au">Enter postcode</string>
+    <string name="tv_add_address_zip_required_error_ca">Enter postal code</string>
+    <string name="tv_add_first_name_on_card_invalid_error">Invalid first name</string>
+    <string name="tv_add_first_name_on_card_required_error">Enter first name</string>
+    <string name="tv_add_last_name_on_card_invalid_error">Invalid last name</string>
+    <string name="tv_add_last_name_on_card_required_error">Enter last name</string>
+    <string name="tv_another_email_sent">Another email has been sent</string>
+    <string name="tv_couldnt_verify">We couldn\'t verify the address you entered with the postal service. Would you like to save it anyway?</string>
+    <string name="tv_error_add_address_contacts_launch">This app does not have permissions to access your address book</string>
+    <string name="tv_error_add_address_gps_launch">This app does not have permissions to access your device location</string>
+    <string name="tv_error_fetch_address_failed">Canceled fetching address from Address book</string>
+    <string name="tv_error_generic">Sorry, we are unable to process your request at this time. We apologize for the inconvenience</string>
+    <string name="tv_forgotPassword_adviceText">Enter the email address associated with your Visa Checkout account and we\'ll send you an email to reset your password</string>
+    <string name="tv_forgotPassword_adviceText1">We\'ve sent an email to %1$s, it might take a few moments to arrive. To reset your password, simply follow the instructions in the email.</string>
+    <string name="tv_forgotPassword_adviceText2">Didn\'t receive the email?  %1$s</string>
+    <string name="tv_forgotPassword_check_spam">Check your SPAM folder</string>
+    <string name="tv_forgotPassword_create_account">create an account.</string>
+    <string name="tv_forgotPassword_email_hint">Email Address</string>
+    <string name="tv_forgotPassword_error">Sorry, for your protection, we\'ve locked your account. Please contact Customer Support</string>
+    <string name="tv_forgotPassword_error_not_found">We could not find that email address in our system. Please try entering another email address, or you can create a new Visa Checkout account.</string>
+    <string name="tv_forgotPassword_link_sent_title">You Should Receive An Email Shortly</string>
+    <string name="tv_forgotPassword_no_email">Don\'t see the email?</string>
+    <string name="tv_forgotPassword_returnToSignIn">Return to Sign In</string>
+    <string name="tv_forgotPassword_sendAgain">Re-send email instructions</string>
+    <string name="tv_forgotPassword_sendAgain_content_description">Didn\'t receive the email? Send again. Link</string>
+    <string name="tv_forgotPassword_still_not_receive">If you still don\'t receive it you can always create an account.</string>
+    <string name="tv_forgotPassword_title">Reset Password</string>
+    <string name="tv_forgotPassword_wait_for">Wait for a few more minutes - your internet connection speed or email provider may need more time</string>
+    <string name="tv_forgotPassword_you_can">You Can:</string>
+    <string name="tv_header_back">Back</string>
+    <string name="tv_header_logo">Visa Checkout</string>
+    <string name="tv_hint_card_description">Visa…1234</string>
+    <string name="tv_hint_card_expiry_date">Currently not accepted by merchant</string>
+    <string name="tv_hint_city_state_zip">City, State Zipcode</string>
+    <string name="tv_hint_edit_address_name">Full Name</string>
+    <string name="tv_label_add_address_title">Add Your Shipping Address</string>
+    <string name="tv_label_address_suggestion_recommended">Recommended Address:</string>
+    <string name="tv_label_address_suggestion_verify">Please verify your address</string>
+    <string name="tv_label_address_suggestion_you_entered">Address You Entered:</string>
+    <string name="tv_label_answer_list_item">Answer</string>
+    <string name="tv_label_country_selection_title">Please choose your country</string>
+    <string name="tv_label_edit_address_title">Edit Address</string>
+    <string name="tv_privacy">Privacy Policy</string>
+    <string name="tv_privacy_content_description">Privacy Policy. Link</string>
+    <string name="tv_sign_up_confirmation">Your Visa Checkout account was created!</string>
+    <string name="tv_terms">Terms of Service</string>
+    <string name="tv_terms_content_description">Terms of Service. Link</string>
+    <string name="tv_update_tc_agree">We have updated our Terms and Conditions. Please tap on “Agree and Continue“ to agree to Visa Checkout\’s Terms of Service and Privacy Policy before continuing</string>
+    <string name="uae">United Arab Emirates</string>
+    <string name="united_states">United States</string>
+    <string name="username_hint">Username (Email or Mobile Number)</string>
+    <string name="username_required_error">Enter username</string>
+    <string name="wv_complete_action_using">Send Email Using:</string>
+    <!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/values/visa_styles.xml -->
+    <eat-comment/>
+    <style name="AddressCarouselContent">
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/address_carousel_text_color_selected</item>
+        <item name="android:textSize">@dimen/pl_twelve_px_sp</item>
+    </style>
+    <style name="AddressSuggestionTvLines">
+        <item name="android:textSize">@dimen/forty_two_px_sp</item>
+        <item name="android:textColor">@color/tv_info_label_color</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginTop">@dimen/twenty_px</item>
+    </style>
+    <style name="ChallengeQuestionDivider">
+        <item name="android:background">@color/visa_tab_divider_color</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_left_right</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/pl_three_px</item>
+    </style>
+    <style name="ChallengeQuestionText">
+        <item name="android:textColor">@color/tv_info_label_color</item>
+        <item name="android:textSize">@dimen/thirty_seven_px</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_left_right</item>
+        <item name="android:layout_marginTop">@dimen/pl_seventy_px</item>
+    </style>
+    <style name="ForgotPasswordTextViewSubTitle">
+        <item name="android:layout_marginLeft">@dimen/layout_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_left_right</item>
+        <item name="android:textColor">@color/tv_title_color</item>
+        <item name="android:textSize">@dimen/global_font_medium</item>
+        <item name="android:layout_marginTop">@dimen/forty_px</item>
+    </style>
+    <style name="GrayBackground">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/footer_divider_color</item>
+    </style>
+    <style name="PaymentScreenCreditCardLogos">
+        <item name="android:maxHeight">@dimen/credit_card_logo_height</item>
+        <item name="android:minHeight">@dimen/credit_card_logo_height</item>
+        <item name="android:maxWidth">@dimen/credit_card_logo_width</item>
+        <item name="android:minWidth">@dimen/credit_card_logo_width</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/pl_fifteen_px</item>
+    </style>
+    <style name="ProgressBar.Horizontal" parent="@android:style/Widget.ProgressBar.Horizontal"/>
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="VisaCheckoutActiveTab">
+        <item name="android:textColor">@color/tv_title_color</item>
+        <item name="android:textSize">@dimen/tab_text_size</item>
+    </style>
+    <style name="VisaCheckoutDividerLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divider_height_px</item>
+        <item name="android:layout_marginLeft">22dp</item>
+        <item name="android:layout_marginRight">22dp</item>
+        <item name="android:background">@color/global_font_light_grey</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+    <style name="VisaCheckoutEditTextDefault">
+        <item name="android:layout_marginLeft">@dimen/layout_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_left_right</item>
+        <item name="android:background">@drawable/edittext_drawable</item>
+        <item name="android:textSize">@dimen/global_font_large</item>
+        <item name="android:paddingTop">@dimen/et_text_padding</item>
+        <item name="android:paddingBottom">@dimen/et_text_padding</item>
+        <item name="android:paddingLeft">@dimen/et_text_padding</item>
+        <item name="android:paddingRight">@dimen/et_text_padding</item>
+        <item name="android:textColor">@color/visa_checkout_edittext_default_text_color</item>
+        <item name="android:textColorHint">@color/global_font_light_grey</item>
+        <item name="android:longClickable">false</item>
+    </style>
+    <style name="VisaCheckoutEditTextWithHint" parent="VisaCheckoutEditTextDefault">
+        <item name="android:paddingTop">@dimen/twenty_px</item>
+        <item name="android:layout_marginLeft">@dimen/adjusted_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/adjusted_horizontal_margin</item>
+    </style>
+    <style name="VisaCheckoutGlobalCheckbox">
+        <item name="android:layout_width">@dimen/fifty_px</item>
+        <item name="android:layout_height">@dimen/fifty_px</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/checkbox_selector</item>
+    </style>
+    <style name="VisaCheckoutGlobalCheckboxTextLabel">
+        <item name="android:textColor">@color/global_font_dark_grey</item>
+        <item name="android:textSize">@dimen/global_font_small</item>
+        <item name="android:textColorLink">@color/global_font_hyperlink</item>
+        <item name="android:layout_marginLeft">@dimen/twenty_px</item>
+    </style>
+    <style name="VisaCheckoutGlobalDropDown">
+        <item name="android:textColor">@color/global_font_dark_grey</item>
+        <item name="android:textSize">@dimen/global_font_large</item>
+    </style>
+    <style name="VisaCheckoutGoldButton">
+        <item name="android:layout_marginLeft">@dimen/layout_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_left_right</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:textColor">@color/bt_text_color</item>
+        <item name="android:textSize">@dimen/bt_text_size</item>
+        <item name="android:minHeight">@dimen/bt_height</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="VisaCheckoutHintLabel">
+        <item name="android:textColor">@color/global_font_medium_grey</item>
+        <item name="android:textSize">@dimen/global_font_xsmall</item>
+        <item name="android:layout_marginLeft">@dimen/adjusted_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/adjusted_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/et_text_padding</item>
+        <item name="android:paddingLeft">@dimen/et_text_padding</item>
+        <item name="android:paddingTop">@dimen/thirty_px</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="VisaCheckoutHintLabelFocused" parent="VisaCheckoutHintLabel">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="VisaCheckoutInactiveTab">
+        <item name="android:textColor">@color/tv_info_label_color</item>
+        <item name="android:textSize">@dimen/tab_text_size</item>
+    </style>
+    <style name="VisaCheckoutTextViewInfoLabel">
+        <item name="android:layout_marginLeft">@dimen/layout_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_left_right</item>
+        <item name="android:textColor">@color/tv_info_label_color</item>
+        <item name="android:textSize">@dimen/tv_info_label_size</item>
+    </style>
+    <style name="VisaCheckoutTextViewSubTitle">
+        <item name="android:layout_marginLeft">@dimen/layout_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_left_right</item>
+        <item name="android:textColor">@color/global_font_medium_grey</item>
+        <item name="android:textSize">@dimen/global_font_medium</item>
+    </style>
+    <style name="VisaCheckoutTextViewTitle">
+        <item name="android:layout_marginLeft">@dimen/layout_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_left_right</item>
+        <item name="android:textColor">@color/tv_title_color</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_title_top</item>
+        <item name="android:textSize">@dimen/global_font_xlarge</item>
+    </style>
+    <style name="VisaEXOEditText">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textSize">@dimen/global_font_large</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+    <style name="VisaEXOEditTextDefault" parent="VisaEXOEditText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/exo_white_semitransparent</item>
+    </style>
+    <style name="VisaEXOEditTextNeutral" parent="VisaEXOEditText">
+        <item name="android:textColor">@color/global_font_dark_grey</item>
+        <item name="android:textColorHint">@color/exo_dark_grey_semitransparent</item>
+    </style>
+    <style name="VisaEXOTextViewLink">
+        <item name="android:layout_marginTop">@dimen/sixteen_px</item>
+        <item name="android:drawablePadding">@dimen/ten_px</item>
+        <item name="android:textSize">@dimen/global_font_medium</item>
+    </style>
+    <style name="VisaEXOTextViewLinkDefault" parent="VisaEXOTextViewLink">
+        <item name="android:textColor">@color/exo_blue_link</item>
+    </style>
+    <style name="VisaEXOTextViewLinkNeutral" parent="VisaEXOTextViewLink">
+        <item name="android:textColor">@color/exo_white_link</item>
+    </style>
+    <style name="VisaFooterLinkTextView">
+        <item name="android:layout_marginLeft">@dimen/layout_margin_left_right</item>
+        <item name="android:textColor">@color/footer_link_color</item>
+        <item name="android:textSize">@dimen/tv_info_label_size</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="VisaProgressBar" parent="ProgressBar.Horizontal">
+        <item name="spb_stroke_separator_length">3dp</item>
+        <item name="spb_stroke_width">5dp</item>
+        <item name="spb_sections_count">4</item>
+        <item name="spb_speed">0.7</item>
+        <item name="spb_interpolator">spb_interpolator_accelerate</item>
+        <item name="spb_mirror_mode">false</item>
+        <item name="spb_reversed">false</item>
+        <item name="spb_colors">@array/visacheckout_progressbar_colors</item>
+        <item name="android:layout_marginBottom">-1dp</item>
+        <item name="android:layout_marginTop">-1dp</item>
+    </style>
+</resources>

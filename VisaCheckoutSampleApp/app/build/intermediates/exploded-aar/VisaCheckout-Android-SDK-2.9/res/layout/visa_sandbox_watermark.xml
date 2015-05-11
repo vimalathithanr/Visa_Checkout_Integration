@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/seventy_two_px_watermark"
+    android:background="@color/sandbox_layout_color"
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/twenty_six_px_watermark"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="@string/sandbox_watermark"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/watermark_text"
+        android:textStyle="bold|normal" />
+</RelativeLayout><!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/layout/visa_sandbox_watermark.xml -->

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_address_verification_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/visa_checkout_layout_background"
+    android:isScrollContainer="false"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/sixty_px"
+    android:paddingRight="@dimen/sixty_px">
+
+    <include
+        android:id="@+id/address_verification_no_suggestion_tv_visa_server_side_error"
+        layout="@layout/visa_server_side_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_address_verification_no_suggestion_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sixty_px"
+        android:text="@string/tv_label_address_suggestion_verify"
+        android:textColor="@color/tv_title_color"
+        android:textSize="@dimen/bt_text_size" />
+
+    <TextView
+        android:id="@+id/tv_address_verification_no_suggestion_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/seventy_px"
+        android:text="@string/tv_couldnt_verify"
+        android:textColor="@color/tv_info_label_color"
+        android:textSize="@dimen/forty_two_px_sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_address_verification_no_suggestion_name"
+        style="@style/AddressSuggestionTvLines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/forty_px"
+        android:hint="@string/et_hint_add_address_name" />
+
+    <TextView
+        android:id="@+id/tv_address_verification_no_suggestion_line1"
+        style="@style/AddressSuggestionTvLines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_hint_add_address_addressline1" />
+
+    <TextView
+        android:id="@+id/tv_address_verification_no_suggestion_line2"
+        style="@style/AddressSuggestionTvLines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_hint_add_address_addressline2"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_address_verification_no_suggestion_line3"
+        style="@style/AddressSuggestionTvLines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_hint_add_address_addressline3"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_address_verification_no_suggestion_citystatezip"
+        style="@style/AddressSuggestionTvLines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/tv_hint_city_state_zip" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_address_verification_no_suggestion_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sixty_px"
+        android:weightSum="100">
+
+        <Button
+            android:id="@+id/bt_address_verification_no_suggestion_edit"
+            style="@style/VisaCheckoutGoldButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="50"
+            android:text="@string/bt_edit_address"
+            android:textSize="@dimen/forty_two_px_sp" />
+
+        <Button
+            android:id="@+id/bt_address_verification_no_suggestion_save"
+            style="@style/VisaCheckoutGoldButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/sixty_px"
+            android:layout_marginRight="0dp"
+            android:layout_weight="50"
+            android:text="@string/bt_save_address"
+            android:textSize="@dimen/forty_two_px_sp" />
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/payment_terms"
+        layout="@layout/visa_layout_terms_privacy_lock_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout><!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/layout/visa_fragment_address_verification_no_suggestion.xml --><!-- From: file:/C:/Users/virajase/Desktop/Mobile%20Suite/Latest%202.9/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-2.9/res/layout/visa_fragment_address_verification_no_suggestion.xml -->

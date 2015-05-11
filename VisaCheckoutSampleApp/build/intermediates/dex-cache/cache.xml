@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\build\intermediates\pre-dexed\debug\classes-14fadc654fd14636d69de91e1abb2d44014005a0.jar"
+        jar="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\build\intermediates\exploded-aar\facebook-android-sdk-3.23.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c8414f03ff9e5b045f185921c9bc42914c906458"/>
+    <item
+        dex="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-d7f7e158aea6d45380dbd0b11df420c2df2a70e9.jar"
+        jar="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\libs\bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd"/>
+    <item
+        dex="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-a99ee3f9ef92dad273255d9b3e3b4a9bbdb54d92.jar"
+        jar="C:\Program Files (x86)\Android\android-studio1\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\build\intermediates\pre-dexed\debug\classes-5aceeaf23ada4e4e19588912f2196c15177f8281.jar"
+        jar="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\build\intermediates\exploded-aar\card.io-4.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ad75ffd66edc4e3f6f7490372ea66a88e2b8ec72"/>
+    <item
+        dex="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\build\intermediates\pre-dexed\debug\eventbus-2.4.0-0b2b08ca07c5786dfdd949ade3b7be2c2d8bbd5b.jar"
+        jar="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\libs\eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719"/>
+    <item
+        dex="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\build\intermediates\pre-dexed\debug\android-volley-1.0.10-188d7e1513b1288f97f9f7cd5de05623449eb8ef.jar"
+        jar="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\libs\android-volley-1.0.10.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8d62b91f5ccb6f7f872313191c016c03bb61a792"/>
+    <item
+        dex="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\build\intermediates\pre-dexed\debug\classes-f5172456a141a93802e6c3d72d1e6b71bededd17.jar"
+        jar="C:\Users\virajase\Desktop\Mobile Suite\Latest 2.9\VisaCheckoutSampleApp\app\build\intermediates\exploded-aar\VisaCheckout-Android-SDK-2.9\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9f3d551e8ebf45cfec0cf6588d067c91819228c6"/>
+
+</pre-dex-items>

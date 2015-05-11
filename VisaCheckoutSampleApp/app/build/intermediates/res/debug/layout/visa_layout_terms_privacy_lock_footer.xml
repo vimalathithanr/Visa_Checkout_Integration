@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_terms_privacy_container"
+    android:paddingTop="@dimen/forty_px"
+    android:layout_width="match_parent"
+    android:layout_centerHorizontal="true"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rlLinkContainer"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/sixty_px"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_terms_privacy_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_lock"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/thirty_px"
+            android:layout_marginBottom="@dimen/thirty_px"
+            android:contentDescription="@string/accessibility_secure_lock"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="@dimen/ten_px"
+            android:maxHeight="@dimen/pl_forty_five_px"
+            android:minHeight="@dimen/pl_forty_five_px"
+            android:maxWidth="@dimen/pl_thirty_five_px"
+            android:minWidth="@dimen/pl_thirty_five_px"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_terms_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/VisaFooterLinkTextView"
+            android:layout_toRightOf="@id/iv_terms_privacy_lock"
+            android:contentDescription="@string/tv_terms_content_description"
+            android:text="@string/tv_terms" />
+
+
+        <TextView
+            android:id="@+id/tv_privacy_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/VisaFooterLinkTextView"
+            android:layout_toRightOf="@id/tv_terms_link"
+            android:text="@string/tv_privacy"
+            android:contentDescription="@string/tv_privacy_content_description"/>
+
+        <TextView
+            android:id="@+id/tv_invisible_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten_px"
+            style="@style/VisaFooterLinkTextView"
+            android:layout_toRightOf="@id/tv_privacy_link" />
+
+        <View
+            android:id="@+id/v_footer_divider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/footer_divider_width"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@id/iv_terms_privacy_lock"
+            android:layout_alignRight="@id/tv_invisible_view"
+            android:background="@color/footer_divider_color"/>
+
+        <View
+            android:id="@+id/v_footer_divider_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/footer_divider_width"
+            android:layout_below="@id/iv_terms_privacy_lock"
+            android:layout_alignLeft="@id/iv_terms_privacy_lock"
+            android:layout_alignRight="@id/tv_invisible_view"
+            android:background="@color/footer_divider_color"/>
+
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/jenkins/workspace/AndroidSDKReleaseBuild/mcommerce/sdk_mcom/src/main/res/layout/visa_layout_terms_privacy_lock_footer.xml --><!-- From: file:/C:/Users/virajase/Desktop/Mobile%20Suite/Latest%202.9/VisaCheckoutSampleApp/app/build/intermediates/exploded-aar/VisaCheckout-Android-SDK-2.9/res/layout/visa_layout_terms_privacy_lock_footer.xml -->
